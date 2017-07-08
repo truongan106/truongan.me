@@ -1,0 +1,136 @@
+body {
+  padding: 50px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.main{
+	width: 100%;
+	/*padding: 40px;*/
+}
+
+.header{
+	height: 30vh;
+	width: 100%;
+	display: block;
+}
+.header .header-title{
+	display: block;
+	font-size: 8vh;
+	color: rgb(255, 82, 82);
+	text-align: center;
+	font-family: 'VT323', monospace;
+
+}
+
+.header .header-slogan{
+	font-size: 5vh;
+	color: #3c948b;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	-webkit-animation-name: slogan; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    /*-webkit-animation-delay: s; /* Safari 4.0 - 8.0 */
+    animation-name: slogan;
+    animation-duration: 1s;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes slogan {
+    0%   {font-size: 5vh}
+    50%  {font-size: 12vh}
+    100% {font-size: 5vh}
+}
+/* Standard syntax */
+@keyframes slogan {
+    0%   {font-size: 5vh}
+    50%  {font-size: 12vh}
+    100% {font-size: 5vh}
+}
+.container{
+	width: 100%;
+	text-align: center;
+}
+.container .welcome{
+	/*display: none;*/
+	color: rgb(255, 82, 82);;
+	font-size: 5vh;
+	width: 100%;
+	text-align: center;
+	font-family: 'Arima Madurai', cursive;
+	/*-webkit-animation-name: welcome; /* Safari 4.0 - 8.0 */
+    /*-webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-delay: 1s; 
+    /*animation-name: welcome;*/
+    /*animation-duration: 1s;*/
+    animation-delay: 1s;
+	margin-bottom: 15vh;
+
+}
+
+.delay1s{
+	-webkit-animation-delay: 1s; 
+    /*animation-name: welcome;*/
+    /*animation-duration: 1s;*/
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes welcome {
+    0%   {    text-shadow: 0 0 0px #FF0000;
+}
+    50%  {text-shadow: 0 0 3px #FF0000;
+}
+    100% {	    text-shadow: 0 0 0px #FF0000;
+}
+}
+/* Standard syntax */
+@keyframes welcome {
+        0%   {    text-shadow: 0 0 0px #FF0000;
+}
+    50%  {text-shadow: 0 0 3px #FF0000;
+}
+    100% {	    text-shadow: 0 0 0px #FF0000;
+}
+}
+
+
+.liveshow-button{
+	height: 8vh;
+	width: 70vw;
+	line-height: 8vh;
+	text-align: center;
+	background: #f35626;
+	font-size: 5vh;
+	color: #fff;
+	border-radius: 20px;
+	margin:auto;
+}
+.liveshow{
+	display: flex;
+	font-family: 'Arima Madurai', cursive;
+	justify-content: space-between;
+}
+.liveshow.liveshow-button.animated.shake:active{
+	background: #e04a1b;
+}
+.answer-yes-button{
+	height: 8vh;
+	width: 35vw;
+	line-height: 8vh;
+	text-align: center;
+	font-size: 5vh;
+	color: #fff;
+	background: #006621;
+}
+.answer-no-button{
+	height: 8vh;
+	width: 35vw;
+	line-height: 8vh;
+	text-align: center;
+	font-size: 5vh;
+	color: #fff;
+	background: #dd4b39;
+	border-radius: 20px;
+
+}
