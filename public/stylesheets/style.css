@@ -2,8 +2,8 @@ body {
   padding: 50px;
 }
 
-a {
-  color: #00B7FF;
+.linkfb a {
+  color: #fff;
 }
 
 .main{
@@ -107,7 +107,7 @@ a {
 	margin:auto;
 }
 .liveshow{
-	display: flex;
+	/*display: flex;*/
 	font-family: 'Arima Madurai', cursive;
 	justify-content: space-between;
 }
@@ -116,21 +116,36 @@ a {
 }
 .answer-yes-button{
 	height: 8vh;
-	width: 35vw;
+	width: 43vw;
 	line-height: 8vh;
 	text-align: center;
 	font-size: 5vh;
 	color: #fff;
 	background: #006621;
+	border-radius: 20px;
+
 }
 .answer-no-button{
 	height: 8vh;
-	width: 35vw;
+	width: 43vw;
 	line-height: 8vh;
 	text-align: center;
 	font-size: 5vh;
 	color: #fff;
 	background: #dd4b39;
 	border-radius: 20px;
+
+}
+.linkfb{
+	background: #3b5998;
+	height: 6vh;
+	line-height: 6vh;
+	color: #fff;
+	border-radius: 20px;
+	text-align: center;
+	margin:auto;
+	font-size: 4vh;
+	padding-left: 20px;
+	padding-right: 20px;
 
 }
